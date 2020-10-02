@@ -1,5 +1,6 @@
 import numpy as np 
 import random 
+import panda as pd
 from time import sleep 
 
 
@@ -89,6 +90,7 @@ def play_game():
 	board, winner, counter = create_board(), 0, 1
 	print(board) 
 	sleep(2) 
+	print("TIC-TAC-TOE")
 	
 	while winner == 0: 
 		for player in [1, 2]: 
